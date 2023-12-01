@@ -32,6 +32,9 @@ input type:touchpad {
 	middle_emulation enabled
 }
 
+seat * hide_cursor 3000
+seat * hide_cursor when-typing enable
+
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
